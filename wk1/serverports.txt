@@ -1,0 +1,21 @@
+1) What is the definition of server port?
+-> the port for managing outgoing communications between a Web client and an image server. The Image server is really accessed via the Web server's name due to firewall constraints, and all Image server communication is subsequently sent to the Image server. UNIX and Windows both have 3001 as the default.
+
+2) What is server port range?
+-> The range of ports is 0 to 65535, but only ports 0 to 1023 are classified as well-known ports and allocated for privileged services.
+
+3) How many bits does number above represent?
+-> 10 bits are needed for the smallest four-digit number, 1000, and 14 bits are needed for the biggest four-digit number, 9999. Between those two peaks, there are different numbers of bits. As an illustration, 8 bits, can represent positive numbers from 0 to 255, 1344 needs 11 bits, 2527 needs 12 bits, and 5019 needs 13 bits.
+
+4) State 10 common server ports
+-> Port 20 - File Transfer Protocol (FTP) Data Transfer
+-> Port 21 - File Transfer Protocol (FTP) Command Control
+-> Port 22 - Secure Shell (SSH)
+-> Port 23 - Telnet - Remote login service, unencrypted text messages
+-> Port 25 - Simple Mail Transfer Protocol (SMTP) E-mail Routing
+-> Port 53 - Domain Name System (DNS) service
+-> Port 80 - Hypertext Transfer Protocol (HTTP) used in World Wide Web
+-> Port 123 - Network Time Protocol (NTP)
+-> Port 143 - Internet Message Access Protocol (IMAP) Management of Digital Mail
+-> Port 161 - Simple Network Management Protocol (SNMP)
+-> Port 443 - HTTP Secure (HTTPS) HTTP over TLS/SSL
