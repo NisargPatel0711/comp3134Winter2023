@@ -1,0 +1,51 @@
+C:\Users\Nisarg Patel>ping youtube.com
+
+Pinging youtube.com [142.251.33.174] with 32 bytes of data:
+Reply from 142.251.33.174: bytes=32 time=1ms TTL=120
+Reply from 142.251.33.174: bytes=32 time=2ms TTL=120
+Reply from 142.251.33.174: bytes=32 time=2ms TTL=120
+Reply from 142.251.33.174: bytes=32 time=4ms TTL=120
+
+Ping statistics for 142.251.33.174:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 4ms, Average = 2ms
+
+C:\Users\Nisarg Patel>ping instagram.com
+
+Pinging instagram.com [31.13.80.174] with 32 bytes of data:
+Reply from 31.13.80.174: bytes=32 time=1ms TTL=58
+Reply from 31.13.80.174: bytes=32 time=1ms TTL=58
+Reply from 31.13.80.174: bytes=32 time=1ms TTL=58
+Reply from 31.13.80.174: bytes=32 time=1ms TTL=58
+
+Ping statistics for 31.13.80.174:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+C:\Users\Nisarg Patel>ping instagram.com -w 10
+
+Pinging instagram.com [31.13.80.174] with 32 bytes of data:
+Reply from 31.13.80.174: bytes=32 time=1ms TTL=58
+Reply from 31.13.80.174: bytes=32 time=1ms TTL=58
+Reply from 31.13.80.174: bytes=32 time=1ms TTL=58
+Reply from 31.13.80.174: bytes=32 time=1ms TTL=58
+
+Ping statistics for 31.13.80.174:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+C:\Users\Nisarg Patel>ping instagram.com -ww 10
+
+Pinging instagram.com [31.13.80.174] with 32 bytes of data:
+Reply from 31.13.80.174: bytes=32 time=3ms TTL=58
+Reply from 31.13.80.174: bytes=32 time=1ms TTL=58
+Reply from 31.13.80.174: bytes=32 time=1ms TTL=58
+Reply from 31.13.80.174: bytes=32 time=1ms TTL=58
+
+Ping statistics for 31.13.80.174:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 3ms, Average = 1ms

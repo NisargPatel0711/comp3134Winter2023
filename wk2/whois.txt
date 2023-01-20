@@ -1,0 +1,90 @@
+1. NETFLIX - netflix.com
+
+Domain Name: netflix.com
+Registry Domain ID: 1404215_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2021-10-09T09:37:28+0000
+Creation Date: 1997-11-11T05:00:00+0000
+Registrar Registration Expiration Date: 2023-11-10T00:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: email@markmonitor.com
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+
+2. WIKIPEDIA - wikipedia.com
+
+Domain Name: wikipedia.com
+Registry Domain ID: 51687032_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2022-12-09T09:17:04+0000
+Creation Date: 2001-01-13T00:12:14+0000
+Registrar Registration Expiration Date: 2024-01-10T00:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: email@markmonitor.com
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+
+3. GITHUB - github.com
+
+Domain Name: github.com
+Registry Domain ID: 1264983250_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2022-09-07T09:10:44+0000
+Creation Date: 2007-10-09T18:20:50+0000
+Registrar Registration Expiration Date: 2024-10-09T00:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: email@markmonitor.com
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+
+4. UDEMY - udemy.com
+
+Domain Name: UDEMY.COM
+Registry Domain ID: 1565562579_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.safenames.net
+Registrar URL: http://www.safenames.net
+Updated Date: 2021-09-01T04:57:04Z
+Creation Date: 2009-08-13T20:37:45Z
+Registrar Registration Expiration Date: 2023-08-13T20:37:45Z
+Registrar: Safenames Ltd
+Registrar IANA ID: 447
+Registrar Abuse Contact Email: email@safenames.net
+Registrar Abuse Contact Phone: +44.1908200022
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+5. YAHOO -  yahoo.com
+
+Domain Name: yahoo.com
+Registry Domain ID: 3643624_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2022-12-18T09:08:06+0000
+Creation Date: 1995-01-18T08:00:00+0000
+Registrar Registration Expiration Date: 2024-01-19T00:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: email@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895770
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)

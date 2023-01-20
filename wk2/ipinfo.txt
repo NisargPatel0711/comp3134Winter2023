@@ -1,0 +1,24 @@
+1. REDDIT - https://www.reddit.com/
+
+IP address: 151.101.1.140
+Geolocation: San Francisco, California, United States of America - 94107
+
+2. LinkedIn - https://www.linkedin.com/
+
+IP address: 13.107.42.14
+Geolocation: Redmond, Washington, United States of America - 98052
+
+3. Discord - https://discord.com/
+
+IP address: 162.159.135.232
+Geolocation San Francisco, California, United States of America - 94107
+
+4. Microsoft - https://www.microsoft.com/
+
+IP address: 162.159.135.232
+Geolocation: San Francisco, California, United States of America - 94107
+
+5. ebay - https://www.ebay.com/
+
+IP address: 23.211.181.76
+Geolocation: Atlanta, Georgia, United States of America - 30301

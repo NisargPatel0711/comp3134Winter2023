@@ -1,0 +1,55 @@
+1. Walmart - https://www.walmart.ca/
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping 23.4.180.21
+PING 23.4.180.21 (23.4.180.21) 56(84) bytes of data.
+64 bytes from 23.4.180.21: icmp_seq=1 ttl=51 time=17.6 ms
+64 bytes from 23.4.180.21: icmp_seq=2 ttl=51 time=16.5 ms
+64 bytes from 23.4.180.21: icmp_seq=3 ttl=51 time=16.6 ms
+64 bytes from 23.4.180.21: icmp_seq=4 ttl=51 time=16.5 ms
+64 bytes from 23.4.180.21: icmp_seq=5 ttl=51 time=16.5 ms
+64 bytes from 23.4.180.21: icmp_seq=6 ttl=51 time=16.5 ms
+64 bytes from 23.4.180.21: icmp_seq=7 ttl=51 time=16.5 ms
+64 bytes from 23.4.180.21: icmp_seq=8 ttl=51 time=16.5 ms
+64 bytes from 23.4.180.21: icmp_seq=9 ttl=51 time=16.5 ms
+64 bytes from 23.4.180.21: icmp_seq=10 ttl=51 time=16.5 ms
+64 bytes from 23.4.180.21: icmp_seq=11 ttl=51 time=16.5 ms
+^C
+--- 23.4.180.21 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10017ms
+rtt min/avg/max/mdev = 16.458/16.606/17.584/0.310 ms
+
+
+2. Instagram - https://www.instagram.com/
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping 31.13.67.174
+PING 31.13.67.174 (31.13.67.174) 56(84) bytes of data.
+64 bytes from 31.13.67.174: icmp_seq=1 ttl=49 time=53.2 ms
+64 bytes from 31.13.67.174: icmp_seq=2 ttl=49 time=51.7 ms
+64 bytes from 31.13.67.174: icmp_seq=3 ttl=49 time=51.9 ms
+
+3. YouTube - https://www.youtube.com/
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping 74.125.28.190
+PING 74.125.28.190 (74.125.28.190) 56(84) bytes of data.
+64 bytes from 74.125.28.190: icmp_seq=1 ttl=109 time=33.3 ms
+64 bytes from 74.125.28.190: icmp_seq=2 ttl=109 time=31.9 ms
+64 bytes from 74.125.28.190: icmp_seq=3 ttl=109 time=32.0 ms
+
+4. Google - https://www.google.com/
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping 172.217.203.103
+PING 172.217.203.103 (172.217.203.103) 56(84) bytes of data.
+64 bytes from 172.217.203.103: icmp_seq=1 ttl=106 time=32.8 ms
+64 bytes from 172.217.203.103: icmp_seq=2 ttl=106 time=31.8 ms
+64 bytes from 172.217.203.103: icmp_seq=3 ttl=106 time=32.4 ms
+
+5. Amazon - https://www.amazon.com/
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping 13.226.54.3
+PING 13.226.54.3 (13.226.54.3) 56(84) bytes of data.
+64 bytes from 13.226.54.3: icmp_seq=1 ttl=244 time=40.9 ms
+64 bytes from 13.226.54.3: icmp_seq=2 ttl=244 time=39.7 ms
+64 bytes from 13.226.54.3: icmp_seq=3 ttl=244 time=39.7 ms
+
+
+
