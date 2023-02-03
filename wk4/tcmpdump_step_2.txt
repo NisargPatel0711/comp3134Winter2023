@@ -1,0 +1,27 @@
+root@comp3134-winter2023:~# tcpdump -c 20 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+20:23:21.085206 IP comp3134-winter2023.ssh > 198.96.84.224.50620: Flags [P.], seq 109995132:109995240, ack 3544055149, win 501, length 108
+20:23:21.085313 IP comp3134-winter2023.ssh > 198.96.84.224.50620: Flags [P.], seq 108:252, ack 1, win 501, length 144
+20:23:21.085372 IP comp3134-winter2023.ssh > 198.96.84.224.50620: Flags [P.], seq 252:288, ack 1, win 501, length 36
+20:23:21.086223 IP comp3134-winter2023.60836 > 67.207.67.2.domain: 29488+ [1au] PTR? 224.84.96.198.in-addr.arpa. (55)
+20:23:21.086302 IP comp3134-winter2023.56596 > 67.207.67.2.domain: 57539+ [1au] PTR? 224.84.96.198.in-addr.arpa. (55)
+20:23:21.086362 IP comp3134-winter2023.44355 > 67.207.67.2.domain: 572+ [1au] PTR? 224.84.96.198.in-addr.arpa. (55)
+20:23:21.087825 IP 67.207.67.2.domain > comp3134-winter2023.56596: 57539 NXDomain 0/1/1 (120)
+20:23:21.087826 IP 67.207.67.2.domain > comp3134-winter2023.60836: 29488 NXDomain 0/1/1 (120)
+20:23:21.087876 IP 67.207.67.2.domain > comp3134-winter2023.44355: 572 NXDomain 0/1/1 (120)
+20:23:21.088005 IP comp3134-winter2023.56596 > 67.207.67.2.domain: 57539+ PTR? 224.84.96.198.in-addr.arpa. (44)
+20:23:21.088081 IP comp3134-winter2023.44355 > 67.207.67.2.domain: 572+ PTR? 224.84.96.198.in-addr.arpa. (44)
+20:23:21.088208 IP comp3134-winter2023.60836 > 67.207.67.2.domain: 29488+ PTR? 224.84.96.198.in-addr.arpa. (44)
+20:23:21.088514 IP 67.207.67.2.domain > comp3134-winter2023.60836: 29488 NXDomain 0/1/0 (109)
+20:23:21.088514 IP 67.207.67.2.domain > comp3134-winter2023.56596: 57539 NXDomain 0/1/0 (109)
+20:23:21.088537 IP 67.207.67.2.domain > comp3134-winter2023.44355: 572 NXDomain 0/1/0 (109)
+20:23:21.089475 IP comp3134-winter2023.34173 > 67.207.67.2.domain: 46977+ [1au] PTR? 167.224.22.165.in-addr.arpa. (56)
+20:23:21.089550 IP comp3134-winter2023.59407 > 67.207.67.2.domain: 4650+ [1au] PTR? 167.224.22.165.in-addr.arpa. (56)
+20:23:21.089618 IP comp3134-winter2023.42484 > 67.207.67.2.domain: 12894+ [1au] PTR? 167.224.22.165.in-addr.arpa. (56)
+20:23:21.089853 IP 67.207.67.2.domain > comp3134-winter2023.34173: 46977 NXDomain 0/1/1 (123)
+20:23:21.089887 IP 67.207.67.2.domain > comp3134-winter2023.59407: 4650 NXDomain 0/1/1 (123)
+20 packets captured
+50 packets received by filter
+9 packets dropped by kernel
+root@comp3134-winter2023:~#

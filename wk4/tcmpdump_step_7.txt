@@ -1,0 +1,163 @@
+root@comp3134-winter2023:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+20:26:46.304385 IP comp3134-winter2023.ssh > 198.96.84.224.50620: Flags [P.], seq 125398328:125398364, ack 3544066417, win 501, length 36
+20:26:46.305059 IP comp3134-winter2023.ssh > 198.96.84.224.50620: Flags [P.], seq 36:80, ack 1, win 501, length 44
+20:26:46.305113 IP comp3134-winter2023.ssh > 198.96.84.224.50620: Flags [P.], seq 80:188, ack 1, win 501, length 108
+20:26:46.305155 IP comp3134-winter2023.ssh > 198.96.84.224.50620: Flags [P.], seq 188:224, ack 1, win 501, length 36
+20:26:46.307128 IP 198.96.84.224.50620 > comp3134-winter2023.ssh: Flags [.], ack 224, win 511, length 0
+20:26:47.024671 IP 218.92.0.207.42657 > comp3134-winter2023.ssh: Flags [S], seq 366513292, win 29200, options [mss 1460,sackOK,TS val 15013359 ecr 0,nop,wscale 7], length 0
+20:26:47.024723 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:26:47.235114 IP 218.92.0.207.45109 > comp3134-winter2023.ssh: Flags [S], seq 1843985493, win 29200, options [mss 1460,sackOK,TS val 15013416 ecr 0,nop,wscale 7], length 0
+20:26:47.235167 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:26:47.452471 IP 218.92.0.207.47127 > comp3134-winter2023.ssh: Flags [S], seq 3187360506, win 29200, options [mss 1460,sackOK,TS val 15013469 ecr 0,nop,wscale 7], length 0
+20:26:47.452519 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:26:48.388709 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40772: Flags [P.], seq 2885507996:2885508048, ack 2419692969, win 502, options [nop,nop,TS val 2831448084 ecr 2182380969], length 52
+20:26:48.538616 IP 37-16-17-134-cloud.mts.by.40772 > comp3134-winter2023.ssh: Flags [P.], seq 1:53, ack 52, win 262, options [nop,nop,TS val 2182383957 ecr 2831448084], length 52
+20:26:48.538670 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40772: Flags [.], ack 53, win 502, options [nop,nop,TS val 2831448234 ecr 2182383957], length 0
+20:26:48.538920 IP 37-16-17-134-cloud.mts.by.40772 > comp3134-winter2023.ssh: Flags [F.], seq 53, ack 52, win 262, options [nop,nop,TS val 2182383957 ecr 2831448084], length 0
+20:26:48.540231 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40772: Flags [F.], seq 52, ack 54, win 502, options [nop,nop,TS val 2831448235 ecr 2182383957], length 0
+20:26:48.676086 IP 37-16-17-134-cloud.mts.by.40772 > comp3134-winter2023.ssh: Flags [.], ack 53, win 262, options [nop,nop,TS val 2182384094 ecr 2831448235], length 0
+20:26:49.383542 IP 185.156.73.57.42458 > comp3134-winter2023.34680: Flags [S], seq 2533754228, win 1024, length 0
+20:26:57.597627 IP 176.111.174.86.49734 > comp3134-winter2023.7810: Flags [S], seq 2007525997, win 1024, length 0
+20:27:06.484433 IP 138.197.175.169.48760 > comp3134-winter2023.ssh: Flags [S], seq 2555556438, win 29200, options [mss 1460,sackOK,TS val 2058456155 ecr 0,nop,wscale 7], length 0
+20:27:06.484489 IP comp3134-winter2023 > 138.197.175.169: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:27:17.983204 IP 185.161.69.154.51094 > comp3134-winter2023.5555: Flags [S], seq 2133449079, win 65535, length 0
+20:27:23.048154 IP 89.248.163.62.51161 > comp3134-winter2023.24: Flags [S], seq 3557978676, win 1024, length 0
+20:27:31.481100 IP 51.250.6.222.48322 > comp3134-winter2023.ssh: Flags [S], seq 3213399328, win 64240, options [mss 1460,sackOK,TS val 2551705586 ecr 0,nop,wscale 7], length 0
+20:27:31.481167 IP comp3134-winter2023 > 51.250.6.222: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:27:35.330755 IP net-194-169-175-102.cust.as211760.net.62170 > comp3134-winter2023.ssh: Flags [SEW], seq 1242147929, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+20:27:35.330830 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [S.], seq 964710741, ack 1242147930, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+20:27:35.430031 IP net-194-169-175-102.cust.as211760.net.62170 > comp3134-winter2023.ssh: Flags [P.], seq 1:25, ack 1, win 1026, length 24
+20:27:35.430104 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [.], ack 25, win 502, length 0
+20:27:35.443781 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [P.], seq 1:42, ack 25, win 502, length 41
+20:27:35.539010 IP net-194-169-175-102.cust.as211760.net.62170 > comp3134-winter2023.ssh: Flags [P.], seq 25:1177, ack 42, win 1026, length 1152
+20:27:35.539080 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [P.], seq 42:1098, ack 1177, win 501, length 1056
+20:27:35.632391 IP net-194-169-175-102.cust.as211760.net.62170 > comp3134-winter2023.ssh: Flags [P.], seq 1177:1225, ack 1098, win 1022, length 48
+20:27:35.632459 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [.], ack 1225, win 501, length 0
+20:27:35.640898 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [P.], seq 1098:1378, ack 1225, win 501, length 280
+20:27:35.849523 IP net-194-169-175-102.cust.as211760.net.62170 > comp3134-winter2023.ssh: Flags [P.], seq 1225:1241, ack 1378, win 1021, length 16
+20:27:35.849595 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [.], ack 1241, win 501, length 0
+20:27:36.083509 IP net-194-169-175-102.cust.as211760.net.62170 > comp3134-winter2023.ssh: Flags [P.], seq 1241:1305, ack 1378, win 1021, length 64
+20:27:36.083562 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [.], ack 1305, win 501, length 0
+20:27:36.083679 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [P.], seq 1378:1442, ack 1305, win 501, length 64
+20:27:36.179544 IP net-194-169-175-102.cust.as211760.net.62170 > comp3134-winter2023.ssh: Flags [P.], seq 1305:1401, ack 1442, win 1020, length 96
+20:27:36.222936 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [.], ack 1401, win 501, length 0
+20:27:38.814633 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [P.], seq 1442:1522, ack 1401, win 501, length 80
+20:27:39.018755 IP net-194-169-175-102.cust.as211760.net.62170 > comp3134-winter2023.ssh: Flags [P.], seq 1401:1497, ack 1522, win 1026, length 96
+20:27:39.018755 IP net-194-169-175-102.cust.as211760.net.62170 > comp3134-winter2023.ssh: Flags [F.], seq 1497, ack 1522, win 1026, length 0
+20:27:39.018820 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [.], ack 1497, win 501, length 0
+20:27:39.020538 IP comp3134-winter2023.ssh > net-194-169-175-102.cust.as211760.net.62170: Flags [F.], seq 1522, ack 1498, win 501, length 0
+20:27:39.118677 IP net-194-169-175-102.cust.as211760.net.62170 > comp3134-winter2023.ssh: Flags [.], ack 1523, win 1026, length 0
+20:27:42.728276 IP d11.nibelung.nl.53666 > comp3134-winter2023.41883: Flags [S], seq 2003976377, win 1024, length 0
+20:27:50.964530 IP 91.240.118.77.52621 > comp3134-winter2023.4810: Flags [S], seq 3074749972, win 1024, length 0
+20:27:53.342674 IP hostedby.privatealps.net.11954 > comp3134-winter2023.https: Flags [S], seq 1307017004, win 65535, options [mss 1460,nop,nop,TS val 1986895601 ecr 0,nop,wscale 9], length 0
+20:27:53.342745 IP comp3134-winter2023.https > hostedby.privatealps.net.11954: Flags [R.], seq 0, ack 1307017005, win 0, length 0
+20:27:53.409905 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [S], seq 776812310, win 29200, options [mss 1460,sackOK,TS val 2182448840 ecr 0,nop,wscale 7], length 0
+20:27:53.409981 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [S.], seq 4158393018, ack 776812311, win 65160, options [mss 1460,sackOK,TS val 2831513105 ecr 2182448840,nop,wscale 7], length 0
+20:27:53.536465 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 2182448967 ecr 2831513105], length 0
+20:27:53.540258 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [P.], seq 1:23, ack 1, win 229, options [nop,nop,TS val 2182448971 ecr 2831513105], length 22
+20:27:53.540303 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [.], ack 23, win 509, options [nop,nop,TS val 2831513235 ecr 2182448971], length 0
+20:27:53.547991 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [P.], seq 1:42, ack 23, win 509, options [nop,nop,TS val 2831513243 ecr 2182448971], length 41
+20:27:53.679814 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 2182449110 ecr 2831513243], length 0
+20:27:53.679814 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [P.], seq 23:999, ack 42, win 229, options [nop,nop,TS val 2182449111 ecr 2831513243], length 976
+20:27:53.679866 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [P.], seq 42:1098, ack 23, win 509, options [nop,nop,TS val 2831513375 ecr 2182449110], length 1056
+20:27:53.679902 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [.], ack 999, win 502, options [nop,nop,TS val 2831513375 ecr 2182449111], length 0
+20:27:53.813882 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [P.], seq 999:1047, ack 1098, win 245, options [nop,nop,TS val 2182449245 ecr 2831513375], length 48
+20:27:53.813949 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [.], ack 1047, win 502, options [nop,nop,TS val 2831513509 ecr 2182449245], length 0
+20:27:53.824423 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [P.], seq 1098:1534, ack 1047, win 502, options [nop,nop,TS val 2831513519 ecr 2182449245], length 436
+20:27:53.952840 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [P.], seq 1047:1063, ack 1534, win 262, options [nop,nop,TS val 2182449384 ecr 2831513519], length 16
+20:27:53.952894 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [.], ack 1063, win 502, options [nop,nop,TS val 2831513648 ecr 2182449384], length 0
+20:27:54.077088 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [P.], seq 1063:1115, ack 1534, win 262, options [nop,nop,TS val 2182449508 ecr 2831513648], length 52
+20:27:54.077139 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [.], ack 1115, win 502, options [nop,nop,TS val 2831513772 ecr 2182449508], length 0
+20:27:54.077275 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [P.], seq 1534:1586, ack 1115, win 502, options [nop,nop,TS val 2831513772 ecr 2182449508], length 52
+20:27:54.199939 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [P.], seq 1115:1199, ack 1586, win 262, options [nop,nop,TS val 2182449631 ecr 2831513772], length 84
+20:27:54.242910 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [.], ack 1199, win 502, options [nop,nop,TS val 2831513938 ecr 2182449631], length 0
+20:27:57.204620 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [P.], seq 1586:1638, ack 1199, win 502, options [nop,nop,TS val 2831516900 ecr 2182449631], length 52
+20:27:57.353382 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [P.], seq 1199:1251, ack 1638, win 262, options [nop,nop,TS val 2182452784 ecr 2831516900], length 52
+20:27:57.353383 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [F.], seq 1251, ack 1638, win 262, options [nop,nop,TS val 2182452784 ecr 2831516900], length 0
+20:27:57.353438 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [.], ack 1251, win 502, options [nop,nop,TS val 2831517048 ecr 2182452784], length 0
+20:27:57.354717 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40773: Flags [F.], seq 1638, ack 1252, win 502, options [nop,nop,TS val 2831517050 ecr 2182452784], length 0
+20:27:57.483779 IP 37-16-17-134-cloud.mts.by.40773 > comp3134-winter2023.ssh: Flags [.], ack 1639, win 262, options [nop,nop,TS val 2182452915 ecr 2831517050], length 0
+20:27:59.046256 IP hostedby.privatealps.net.25230 > comp3134-winter2023.https: Flags [S], seq 1783473395, win 65535, options [mss 1460,nop,nop,TS val 1986901306 ecr 0,nop,wscale 9], length 0
+20:27:59.046343 IP comp3134-winter2023.https > hostedby.privatealps.net.25230: Flags [R.], seq 0, ack 1783473396, win 0, length 0
+20:28:00.482576 IP 218.92.0.207.45579 > comp3134-winter2023.ssh: Flags [S], seq 3180173158, win 29200, options [mss 1460,sackOK,TS val 15031721 ecr 0,nop,wscale 7], length 0
+20:28:00.482623 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:28:00.694216 IP 218.92.0.207.47131 > comp3134-winter2023.ssh: Flags [S], seq 364995685, win 29200, options [mss 1460,sackOK,TS val 15031779 ecr 0,nop,wscale 7], length 0
+20:28:00.694305 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:28:00.907253 IP 218.92.0.207.48703 > comp3134-winter2023.ssh: Flags [S], seq 1742911163, win 29200, options [mss 1460,sackOK,TS val 15031832 ecr 0,nop,wscale 7], length 0
+20:28:00.907306 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:28:59.427802 IP 49.73.154.153.56090 > comp3134-winter2023.2376: Flags [S], seq 4009504124, win 1024, options [mss 1460], length 0
+20:28:59.827596 IP 170-187-166-67.ip.linodeusercontent.com.61000 > comp3134-winter2023.ldaps: Flags [S], seq 1157382542, win 1024, length 0
+20:29:01.061504 IP 218.92.0.207.62949 > comp3134-winter2023.ssh: Flags [S], seq 294809844, win 29200, options [mss 1460,sackOK,TS val 15046872 ecr 0,nop,wscale 7], length 0
+20:29:01.061565 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:29:01.275145 IP 218.92.0.207.64633 > comp3134-winter2023.ssh: Flags [S], seq 2442317218, win 29200, options [mss 1460,sackOK,TS val 15046924 ecr 0,nop,wscale 7], length 0
+20:29:01.275192 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:29:01.484379 IP 218.92.0.207.11534 > comp3134-winter2023.ssh: Flags [S], seq 453227257, win 29200, options [mss 1460,sackOK,TS val 15046977 ecr 0,nop,wscale 7], length 0
+20:29:01.484440 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:29:01.639485 IP hosting-by.4cloud.mobi.41333 > comp3134-winter2023.3412: Flags [S], seq 1118307536, win 1024, length 0
+20:29:02.035376 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [S], seq 4112675935, win 29200, options [mss 1460,sackOK,TS val 2182517446 ecr 0,nop,wscale 7], length 0
+20:29:02.035462 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [S.], seq 2450518728, ack 4112675936, win 65160, options [mss 1460,sackOK,TS val 2831581731 ecr 2182517446,nop,wscale 7], length 0
+20:29:02.193105 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 2182517605 ecr 2831581731], length 0
+20:29:02.194034 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [P.], seq 1:23, ack 1, win 229, options [nop,nop,TS val 2182517605 ecr 2831581731], length 22
+20:29:02.194085 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [.], ack 23, win 509, options [nop,nop,TS val 2831581889 ecr 2182517605], length 0
+20:29:02.215689 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [P.], seq 1:42, ack 23, win 509, options [nop,nop,TS val 2831581911 ecr 2182517605], length 41
+20:29:02.362151 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 2182517774 ecr 2831581911], length 0
+20:29:02.362203 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [P.], seq 42:1098, ack 23, win 509, options [nop,nop,TS val 2831582057 ecr 2182517774], length 1056
+20:29:02.371170 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [P.], seq 23:999, ack 42, win 229, options [nop,nop,TS val 2182517783 ecr 2831581911], length 976
+20:29:02.371234 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [.], ack 999, win 502, options [nop,nop,TS val 2831582066 ecr 2182517783], length 0
+20:29:02.521003 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [P.], seq 999:1047, ack 1098, win 245, options [nop,nop,TS val 2182517933 ecr 2831582057], length 48
+20:29:02.521072 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [.], ack 1047, win 502, options [nop,nop,TS val 2831582216 ecr 2182517933], length 0
+20:29:02.530084 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [P.], seq 1098:1534, ack 1047, win 502, options [nop,nop,TS val 2831582225 ecr 2182517933], length 436
+20:29:02.686334 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [P.], seq 1047:1063, ack 1534, win 262, options [nop,nop,TS val 2182518098 ecr 2831582225], length 16
+20:29:02.686404 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [.], ack 1063, win 502, options [nop,nop,TS val 2831582381 ecr 2182518098], length 0
+20:29:02.840396 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [P.], seq 1063:1115, ack 1534, win 262, options [nop,nop,TS val 2182518252 ecr 2831582381], length 52
+20:29:02.840443 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [.], ack 1115, win 502, options [nop,nop,TS val 2831582535 ecr 2182518252], length 0
+20:29:02.840544 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [P.], seq 1534:1586, ack 1115, win 502, options [nop,nop,TS val 2831582536 ecr 2182518252], length 52
+20:29:02.992849 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [P.], seq 1115:1199, ack 1586, win 262, options [nop,nop,TS val 2182518405 ecr 2831582536], length 84
+20:29:02.992916 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [.], ack 1199, win 502, options [nop,nop,TS val 2831582688 ecr 2182518405], length 0
+20:29:05.700693 IP 51.250.6.222.44040 > comp3134-winter2023.ssh: Flags [S], seq 3222463815, win 64240, options [mss 1460,sackOK,TS val 2551799807 ecr 0,nop,wscale 7], length 0
+20:29:05.700748 IP comp3134-winter2023 > 51.250.6.222: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:29:06.934352 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [P.], seq 1586:1638, ack 1199, win 502, options [nop,nop,TS val 2831586629 ecr 2182518405], length 52
+20:29:07.067319 IP 182.43.47.185.50230 > comp3134-winter2023.ms-wbt-server: Flags [S], seq 2331631315, win 1024, length 0
+20:29:07.086020 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [P.], seq 1199:1251, ack 1638, win 262, options [nop,nop,TS val 2182522498 ecr 2831586629], length 52
+20:29:07.086021 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [F.], seq 1251, ack 1638, win 262, options [nop,nop,TS val 2182522498 ecr 2831586629], length 0
+20:29:07.086075 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 112
+20:29:07.086099 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 60
+20:29:07.370928 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [P.], seq 1586:1638, ack 1199, win 502, options [nop,nop,TS val 2831587066 ecr 2182518405], length 52
+20:29:07.394842 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [F.], seq 1251, ack 1638, win 262, options [nop,nop,TS val 2182522807 ecr 2831586629], length 0
+20:29:07.394894 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 60
+20:29:07.521235 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [.], ack 1638, win 262, options [nop,nop,TS val 2182522933 ecr 2831587066,nop,nop,sack 1 {1586:1638}], length 0
+20:29:07.521279 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 72
+20:29:07.786924 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [P.], seq 1586:1638, ack 1199, win 502, options [nop,nop,TS val 2831587482 ecr 2182518405], length 52
+20:29:07.951480 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [.], ack 1638, win 262, options [nop,nop,TS val 2182523362 ecr 2831587482,nop,nop,sack 1 {1586:1638}], length 0
+20:29:07.951534 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 72
+20:29:08.542938 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [FP.], seq 1199:1251, ack 1638, win 262, options [nop,nop,TS val 2182523955 ecr 2831587482], length 52
+20:29:08.542991 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 112
+20:29:08.618924 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [P.], seq 1586:1638, ack 1199, win 502, options [nop,nop,TS val 2831588314 ecr 2182518405], length 52
+20:29:08.766262 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [.], ack 1638, win 262, options [nop,nop,TS val 2182524178 ecr 2831588314,nop,nop,sack 1 {1586:1638}], length 0
+20:29:08.766321 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 72
+20:29:09.308004 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [FP.], seq 1199:1251, ack 1638, win 262, options [nop,nop,TS val 2182524720 ecr 2831588314], length 52
+20:29:09.308068 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 112
+20:29:10.282922 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [P.], seq 1586:1638, ack 1199, win 502, options [nop,nop,TS val 2831589978 ecr 2182518405], length 52
+20:29:10.429269 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [.], ack 1638, win 262, options [nop,nop,TS val 2182525841 ecr 2831589978,nop,nop,sack 1 {1586:1638}], length 0
+20:29:10.429331 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 72
+20:29:10.840015 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [FP.], seq 1199:1251, ack 1638, win 262, options [nop,nop,TS val 2182526252 ecr 2831589978], length 52
+20:29:13.000408 IP 218.92.0.207.38291 > comp3134-winter2023.ssh: Flags [S], seq 2269425210, win 29200, options [mss 1460,sackOK,TS val 15049856 ecr 0,nop,wscale 7], length 0
+20:29:13.000464 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:29:13.212825 IP 218.92.0.207.39653 > comp3134-winter2023.ssh: Flags [S], seq 1614361723, win 29200, options [mss 1460,sackOK,TS val 15049908 ecr 0,nop,wscale 7], length 0
+20:29:13.212881 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:29:13.426034 IP 218.92.0.207.41375 > comp3134-winter2023.ssh: Flags [S], seq 4084266757, win 29200, options [mss 1460,sackOK,TS val 15049962 ecr 0,nop,wscale 7], length 0
+20:29:13.426091 IP comp3134-winter2023 > 218.92.0.207: ICMP comp3134-winter2023 tcp port ssh unreachable, length 68
+20:29:13.610968 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [P.], seq 1586:1638, ack 1199, win 502, options [nop,nop,TS val 2831593306 ecr 2182518405], length 52
+20:29:13.653355 IP zg-1220d-64.stretchoid.com.53663 > comp3134-winter2023.webmin: Flags [S], seq 1794947437, win 65535, length 0
+20:29:13.753572 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [.], ack 1638, win 262, options [nop,nop,TS val 2182529165 ecr 2831593306,nop,nop,sack 1 {1586:1638}], length 0
+20:29:13.753626 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 72
+20:29:13.900008 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [FP.], seq 1199:1251, ack 1638, win 262, options [nop,nop,TS val 2182529312 ecr 2831593306], length 52
+20:29:13.900066 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 112
+20:29:16.696055 IP 205.185.116.53.49186 > comp3134-winter2023.ntp: NTPv4, Client, length 48
+20:29:20.028516 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [FP.], seq 1199:1251, ack 1638, win 262, options [nop,nop,TS val 2182535440 ecr 2831593306], length 52
+20:29:20.028572 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 112
+20:29:20.266937 IP comp3134-winter2023.ssh > 37-16-17-134-cloud.mts.by.40774: Flags [P.], seq 1586:1638, ack 1199, win 502, options [nop,nop,TS val 2831599962 ecr 2182518405], length 52
+20:29:20.409199 IP 37-16-17-134-cloud.mts.by.40774 > comp3134-winter2023.ssh: Flags [.], ack 1638, win 262, options [nop,nop,TS val 2182535820 ecr 2831599962,nop,nop,sack 1 {1586:1638}], length 0
+20:29:20.409254 IP comp3134-winter2023 > 37-16-17-134-cloud.mts.by: ICMP comp3134-winter2023 tcp port ssh unreachable, length 72
+root@comp3134-winter2023:~#
