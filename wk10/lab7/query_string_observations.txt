@@ -1,0 +1,15 @@
+
+1) Navigate to the form and type a valid English word. Write your observations.
+-> It adds the word that is typed in the url after /browse/. For instance, if you entered the word "internet", the url will be https://www.dictionary.com/browse/internet. This url will return GET request from the server, showing different meaning of the word.
+
+2) Navigate to the URL and type an invalid English word after the `/browse/` section of the URL. 
+Write your observations
+-> If an invalid word is entered, first thing that I see is, the url changes the route from /browse to /misspelling?term=[word typed]. Second thing is the pages returns GET request with the title "No results found for [word typed]"
+
+3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script> 
+Write your observations.
+-> It changes the route to /noresult?term=<script>alert(%27hello%27)<%2Fscript>. and gets the output as "No results found for <script>alert('hello')</script>"
+
+4) Navigate to the URL and type the following text: <script>alert(%27hello%27)</script> 
+after the `term=` section of the URL. Write your observations.
+-> If I enter above script tag to dictionary URL after 'term=' section it just append backward in that route.

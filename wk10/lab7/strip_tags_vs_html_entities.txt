@@ -1,0 +1,3 @@
+What is the difference between the two solutions?
+-> In First one we didn't apply conditions. Though we entered script tag in text field, 
+it won't show as User Output after Welcome.
