@@ -1,0 +1,7 @@
+Question 1: What you see on the browser (the issue) ?
+Answer: 
+scandir(hello): Caution: The following directory could not be opened: On line 7 of /var/www/html/directory_traversal_part1.php, there is no such file or directory.
+Warning: scandir(): (errno 2): No such file or directory found on line 7 of /var/www/html/directory_traversal_part1.php.
+
+Question 2: What sensitive information is given by this page ?
+Answer: It is indicating the presence of a file. This informs the user whether or not the file exists. It displays the Folder Structure and any crucial files that are there. This might be the most serious danger to website security. 

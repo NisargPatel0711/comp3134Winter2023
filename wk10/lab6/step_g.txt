@@ -1,0 +1,3 @@
+Apply the necessary changes to mitigate the issues stated in Step G
+-> I removed html comment tag <!--content--> and changed by // and wrapped it inside php, 
+that is how we can convert all HTML comments to PHP comments.

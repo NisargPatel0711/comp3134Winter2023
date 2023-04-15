@@ -1,0 +1,13 @@
+Question 1: What you see on the browser (the issue)?
+Answer: 
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)
+
+Question 2: What sensitive information is given by this page
+Answer: 
+It displays array and content of www directory which is html
+It displays all files and folders in one directory back. Here ../ is HTML encoded
